@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
-import project1 from "@/../public/assets/proj1.jpg";
-import project2 from "@/../public/assets/proj2.jpg";
-import project3 from "@/../public/assets/proj4.jpg";
+import project1 from "@/../public/assets/project1.jpeg";
+import project2 from "@/../public/assets/project2.jpeg";
+import project3 from "@/../public/assets/project3.jpeg";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
