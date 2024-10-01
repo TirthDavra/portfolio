@@ -3,6 +3,7 @@ import React from "react";
 import project1 from "@/../public/assets/project1.jpeg";
 import project2 from "@/../public/assets/project2.jpeg";
 import project3 from "@/../public/assets/project3.jpeg";
+import project4 from "@/../public/assets/project4.jpeg";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
@@ -34,7 +35,7 @@ const projects = [
     devStack: "ReactJS, Firebase",
     link: "",
     git: "",
-    src: project3,
+    src: project4,
   },
 ];
 const Portfolio = () => {
@@ -78,7 +79,7 @@ const Portfolio = () => {
               <Image
                 alt={project.title}
                 src={project.src}
-                className="h-[400px] w-auto object-cover border rounded border-gray-700"
+                className="object-cover border rounded border-gray-700"
               />
             </div>
           </motion.div>
